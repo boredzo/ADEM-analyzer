@@ -1,0 +1,24 @@
+Ballots received: 100000 (100%)
+Ballots determined to be valid: 69420 (69%)
+Ballots determined to be invalid: 30580 (31%)
+Ballots requested: 169,743 (over 9000!!% turnout)
+
+Ballots that were undervoted (fewer than 14 candidates, which is allowed): 9
+Ballots that voted for only one candidate: 1
+Ballots that were overvoted (more than 14 candidates, which is not allowed): 15
+Ballots that didn't bubble in the voter ID number: 0
+
+(the following appears for every AD)
+## AD-99 breakdown
+(all of the above, plus)
+
+(all of these should be sorted descendingly by number of valid votes)
+Valid votes for Pat Smith (OSIF): 99 (69% of votes in this AD)
+Invalid votes for Pat Smith (OSIF): 1 (1% of total votes for this candidate, valid+invalid)
+
+Ballot ID numbers received:
+99-6-2831853, valid
+
+Top 7 SIF:
+Top 7 OSIF:
+
