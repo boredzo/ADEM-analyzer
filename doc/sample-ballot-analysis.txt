@@ -1,7 +1,7 @@
-Ballots received: 100000 (100%)
-Ballots determined to be valid: 69420 (69%)
-Ballots determined to be invalid: 30580 (31%)
-Ballots requested: 169,743 (over 9000!!% turnout)
+Ballots requested: 169,743
+Ballots received: 100,000 (100%)
+Ballots determined to be valid: 69,420 (69%)
+Ballots determined to be invalid: 30,580 (31%)
 
 Ballots that were undervoted (fewer than 14 candidates, which is allowed): 9
 Ballots that voted for only one candidate: 1
