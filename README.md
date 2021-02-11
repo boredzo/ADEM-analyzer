@@ -18,8 +18,9 @@ analyze.py expects a variety of input files in a certain layout, in the same dir
 
 - ballots/
   - ballots/AD 99
-    - ballots/AD 99/AD 99 Invalid Ballots
-    - ballots/AD 99/AD 99 Valid Ballots
+    - ballots/AD 99/AD 99 Invalid Ballots/
+    - ballots/AD 99/AD 99 Valid Ballots/
+      - CADEM_….pdf
 - posted-results/
   - ad-99.html
 
