@@ -27,9 +27,17 @@ analyze.py expects a variety of input files in a certain layout, in the same dir
 analyze.py will create as output:
 
 - output/report.txt: A plain-text report of its findings, based at minimum upon the distribution of files in the ballots/ directory, and comparison of the votes found in those ballots to the posted results if possible.
+- output/posted-results.csv: A comma-separated values file containing a list of candidates and their vote totals from the posted results, with the following columns:
+  - relative pathname (e.g., `posted-results/ad-99.html`)
+  - Assembly district (e.g., `99`)
+  - candidate name
+  - `SIF` or `OSIF`
+  - the number of votes they got
+  - `won` if they were a top-seven vote-getter in their gender category; otherwise `lost`
+  - `eboard` if they ran for and won a seat on the Executive Board; otherwise empty
 - output/ballot-index.csv: A comma-separated values file containing a list of every ballot found, with the following columns:
   - relative pathname (e.g., `ballots/AD 99/AD 99 Valid Ballots/CADEM_…_99.pdf`)
-  - Assembly district
+  - Assembly district (e.g., `99`)
   - voter ID number (note: ? will be present in place of each digit that couldn't be scanned or wasn't marked)
   - `valid`, `invalid-overvote`, `invalid-no-voter-ID`, or `invalid-unknown`
 
