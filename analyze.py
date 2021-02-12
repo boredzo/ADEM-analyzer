@@ -5,7 +5,6 @@ import sys
 import re
 import pathlib
 import argparse
-import itertools
 
 parser = argparse.ArgumentParser()
 opts = parser.parse_args()
@@ -78,15 +77,6 @@ def analyze_ballots():
 	return bool(num_ballots_total_overall)
 
 def analyze_posted_results():
-	try: import bs4
-	except ImportError, e:
-		print(e, file=sys.stderr)
-		return False
-	def generate_won_lost():
-		return itertools.chain(itertools.repeat('won', 7), itertools.repeat('lost'))
-	posted_results_dir_path = pathlib.Path('posted-results')
-	for page_file_path in posted_results_dir_path.glob('ad-??.html'):
-		soup = bs4.BeautifulSoup(open(page_file_path, 'r'))
 	return False
 
 def main(opts):
